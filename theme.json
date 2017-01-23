@@ -1,6 +1,6 @@
 {
     "id": "nodebb-theme-audioflea",
-    "name": "AudioFlea",
+    "name": "AudioFlea NodeBB Theme",
     "description": "Fork of the persona theme for AudioFlea customizations.",
     "url": "https://github.com/psychobunny/nodebb-theme-persona",
     "screenshot": "screenshot.png"
