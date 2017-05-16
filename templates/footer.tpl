@@ -24,7 +24,5 @@
         require(['forum/footer']);
     </script>
     <!-- Audioflea edits, try and load react stuff -->
-{*    <script src="../build/common.js"></script>
-    <script src="../build/fleaApp.app.js"></script>*}
 </body>
 </html>
