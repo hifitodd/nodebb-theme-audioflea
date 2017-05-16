@@ -123,16 +123,7 @@
     <!-- ENDIF showModMenu -->
     <li role="presentation" class="divider"></li>
     <li component="">
-        <a href="../api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout</span></a>
-    </li>
-    <li component="">
-        <a href="/api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout 2</span></a>
-    </li>
-    <li component="">
-        <a href="api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout 3</span></a>
-    </li>
-    <li component="">
-        <a href="http://test.audioflea.com/api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout 4</span></a>
+        <a href="/api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout</span></a>
     </li>
 </ul>
 </li>
@@ -142,7 +133,7 @@
 <ul id="logged-out-menu" class="nav navbar-nav navbar-right">
     <!-- IF allowRegistration -->
     <li>
-        <a href="../login?returnUrl=/forum&activeTab=register">
+        <a href="/login?returnUrl=/forum&activeTab=register">
             <i class="fa fa-pencil visible-xs-inline"></i>
             <span>[[global:register]]</span>
         </a>
@@ -152,7 +143,7 @@
         <!-- note that this URL is absolute and will need to be changed for each environment since nodebb home is on a subdirectory -->
         <!-- maybe there is a different way to setup nodebb so I can still do relative paths? -->
         <!-- <a href="http://test.audioflea.com/login?returnUrl=/forum"> -->
-        <a href="../login?returnUrl=/forum">
+        <a href="/login?returnUrl=/forum">
             <i class="fa fa-sign-in visible-xs-inline"></i>
             <span>[[global:login]]</span>
         </a>
