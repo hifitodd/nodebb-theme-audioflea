@@ -125,6 +125,15 @@
     <li component="">
         <a href="../api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout</span></a>
     </li>
+    <li component="">
+        <a href="/api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout 2</span></a>
+    </li>
+    <li component="">
+        <a href="api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout 3</span></a>
+    </li>
+    <li component="">
+        <a href="http://test.audioflea.com/api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout 4</span></a>
+    </li>
 </ul>
 </li>
 
