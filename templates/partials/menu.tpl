@@ -123,7 +123,7 @@
     <!-- ENDIF showModMenu -->
     <li role="presentation" class="divider"></li>
     <li component="">
-        <a href="/api/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout</span></a>
+        <a href="/auth/logout"><i class="fa fa-fw fa-sign-out"></i><span>Logout</span></a>
     </li>
 </ul>
 </li>
